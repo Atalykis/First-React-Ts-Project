@@ -26,9 +26,11 @@ app.post("/submitPion", (req, res) => {
         res.end();
     }
 });
-server.on("connection", (socket) => {
-    socket.emit("gamestate", game.getState());
-});
+
+//server.on("connection", (socket) => {
+//    socket.emit("gamestate", game.getState());
+//});
+
 app.get("/state", (req, res) => {
     res.write(JSON.stringify(game.getState()));
 });
