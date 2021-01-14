@@ -5,7 +5,7 @@ This project run with React/NodeJS
 
 npm install 
 
-to install all dependencies, then 
+in the /back and the /front to install all dependencies, then 
 
 npm start 
 
