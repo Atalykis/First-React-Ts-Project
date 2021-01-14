@@ -5,9 +5,9 @@ import './App.css';
 
 const socket = io('http://localhost:3000');
 
-socket.on('gamestate', (arg: any) => {
-  console.log(arg);
-});
+//socket.on('gamestate', (arg: any) => {
+//  console.log(arg);
+//});
 
 interface AppProps {}
 
