@@ -13,4 +13,4 @@ in the /back folder to start the server, then
 
 node out/index.js
 
-in the front folder to run de client-side.
+in the front folder to run the client-side.
