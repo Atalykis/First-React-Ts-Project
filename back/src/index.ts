@@ -27,9 +27,9 @@ app.post("/submitPion", (req: express.Request, res: express.Response) => {
   }
 });
 
-server.on("connection", (socket: any) => {
-  socket.emit("gamestate", game.getState());
-});
+//server.on("connection", (socket: any) => {
+//  socket.emit("gamestate", game.getState());
+//});
 
 app.get("/state", (req: express.Request, res: express.Response) => {
   res.write(JSON.stringify(game.getState()));
