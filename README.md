@@ -9,8 +9,8 @@ in the /back and the /front folders to install all dependencies, then
 
 npm start 
 
-in the /back folder to start the server, then
+in the /front folder to start the client-side, then
 
 node out/index.js
 
-in the front folder to run the client-side.
+in the /back folder to run the client-side.
